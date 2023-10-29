@@ -16,14 +16,16 @@ const LoginSection = () => {
         </InputGroup>
         <CheckboxContainer>
           <div>
-            <CheckboxInput type="checkbox" id="rememberMe" />
-            <CheckboxLabel htmlFor="rememberMe">Remember Me</CheckboxLabel>
+            <CheckboxInput />
+            <CheckboxLabel type="checkbox" id="rememberMe">
+              Remember Me
+            </CheckboxLabel>
           </div>
           <ForgetPasswordLink>Change Password</ForgetPasswordLink>
         </CheckboxContainer>
         <div>
-          <CheckboxInput type="checkbox" id="agreeTerms" />
-          <CheckboxLabel htmlFor="agreeTerms">
+          <CheckboxInput />
+          <CheckboxLabel type="checkbox" id="agreeTerms">
             Agree to <HyperLink>Terms & Conditions</HyperLink>
           </CheckboxLabel>
         </div>
@@ -52,7 +54,7 @@ const LoginForm = styled.div`
   align-items: center;
   justify-content: center;
   @media (max-width: 768px) {
-    width: 90%;
+    width: 96%;
   }
 `;
 
@@ -104,7 +106,7 @@ const CheckboxLabel = styled.span`
 const ForgetPasswordLink = styled.a`
   cursor: pointer;
   color: #f78719;
-  margin: 10px 40px;
+  margin: 0px 40px;
   @media (max-width: 768px) {
     margin: 0 15px;
   }
