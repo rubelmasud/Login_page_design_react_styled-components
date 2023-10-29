@@ -132,6 +132,7 @@ const LoginButton = styled.a`
   justify-content: center;
   width: 70%;
   margin: 0 auto;
+  cursor: pointer;
 `;
 
 const RegisterPageLink = styled.p`
