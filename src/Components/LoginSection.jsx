@@ -16,16 +16,14 @@ const LoginSection = () => {
         </InputGroup>
         <CheckboxContainer>
           <div>
-            <CheckboxInput />
-            <CheckboxLabel type="checkbox" id="rememberMe">
-              Remember Me
-            </CheckboxLabel>
+            <CheckboxInput type="checkbox" id="rememberMe" />
+            <CheckboxLabel htmlFor="rememberMe">Remember Me</CheckboxLabel>
           </div>
           <ForgetPasswordLink>Change Password</ForgetPasswordLink>
         </CheckboxContainer>
         <div>
-          <CheckboxInput />
-          <CheckboxLabel type="checkbox" id="agreeTerms">
+          <CheckboxInput type="checkbox" id="agreeTerms" />
+          <CheckboxLabel htmlFor="agreeTerms">
             Agree to <HyperLink>Terms & Conditions</HyperLink>
           </CheckboxLabel>
         </div>

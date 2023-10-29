@@ -1,18 +1,15 @@
 import image from "../../assets/Group 3608.png";
 import styled from "styled-components";
-import LoginForm from "../../Components/LoginSection";
 import LoginSection from "../../Components/LoginSection";
 
 const Login = () => {
   return (
-    <div>
-      <Container>
-        <ImageSection>
-          <img src={image} alt="" />
-        </ImageSection>
-        <LoginSection />
-      </Container>
-    </div>
+    <Container>
+      <ImageSection>
+        <img src={image} alt="" />
+      </ImageSection>
+      <LoginSection />
+    </Container>
   );
 };
 
